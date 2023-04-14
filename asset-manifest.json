@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Y-BRO-Clothings/static/css/main.9027c7ae.css",
+    "main.css": "/Y-BRO-Clothings/static/css/main.1a0e09c8.css",
     "main.js": "/Y-BRO-Clothings/static/js/main.f9327c20.js",
     "static/media/product2.jpg": "/Y-BRO-Clothings/static/media/product2.55bac57911ab02801b9f.jpg",
     "static/media/product1.jpg": "/Y-BRO-Clothings/static/media/product1.4a0cd7a69c32378c95e7.jpg",
@@ -38,11 +38,11 @@
     "static/media/fa-v4compatibility.ttf": "/Y-BRO-Clothings/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Y-BRO-Clothings/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Y-BRO-Clothings/index.html",
-    "main.9027c7ae.css.map": "/Y-BRO-Clothings/static/css/main.9027c7ae.css.map",
+    "main.1a0e09c8.css.map": "/Y-BRO-Clothings/static/css/main.1a0e09c8.css.map",
     "main.f9327c20.js.map": "/Y-BRO-Clothings/static/js/main.f9327c20.js.map"
   },
   "entrypoints": [
-    "static/css/main.9027c7ae.css",
+    "static/css/main.1a0e09c8.css",
     "static/js/main.f9327c20.js"
   ]
 }
