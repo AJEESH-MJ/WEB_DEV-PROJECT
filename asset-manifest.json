@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Y-BRO-Clothings/static/css/main.d487cb59.css",
-    "main.js": "/Y-BRO-Clothings/static/js/main.d6ab24e3.js",
+    "main.css": "/Y-BRO-Clothings/static/css/main.9027c7ae.css",
+    "main.js": "/Y-BRO-Clothings/static/js/main.f9327c20.js",
     "static/media/product2.jpg": "/Y-BRO-Clothings/static/media/product2.55bac57911ab02801b9f.jpg",
     "static/media/product1.jpg": "/Y-BRO-Clothings/static/media/product1.4a0cd7a69c32378c95e7.jpg",
     "static/media/Rohit.jpeg": "/Y-BRO-Clothings/static/media/Rohit.3df54c56f59011433118.jpeg",
@@ -38,11 +38,11 @@
     "static/media/fa-v4compatibility.ttf": "/Y-BRO-Clothings/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Y-BRO-Clothings/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Y-BRO-Clothings/index.html",
-    "main.d487cb59.css.map": "/Y-BRO-Clothings/static/css/main.d487cb59.css.map",
-    "main.d6ab24e3.js.map": "/Y-BRO-Clothings/static/js/main.d6ab24e3.js.map"
+    "main.9027c7ae.css.map": "/Y-BRO-Clothings/static/css/main.9027c7ae.css.map",
+    "main.f9327c20.js.map": "/Y-BRO-Clothings/static/js/main.f9327c20.js.map"
   },
   "entrypoints": [
-    "static/css/main.d487cb59.css",
-    "static/js/main.d6ab24e3.js"
+    "static/css/main.9027c7ae.css",
+    "static/js/main.f9327c20.js"
   ]
 }
