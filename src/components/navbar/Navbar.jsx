@@ -16,10 +16,10 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/"><img src={logo} alt="" /></Link>
+        <Link to="/home"><img src={logo} alt="" /></Link>
       </div>
       <div className="navbar-menu">
-        <Link to="/" className={activeLink === 0 ? 'active' : ''} onClick={() => handleClick(0)}>Home</Link>
+        <Link to="/home" className={activeLink === 0 ? 'active' : ''} onClick={() => handleClick(0)}>Home</Link>
         <Link to="/products" className={activeLink === 1 ? 'active' : ''} onClick={() => handleClick(1)}>Products</Link>
         <Link to="/design" className={activeLink === 2 ? 'active' : ''} onClick={() => handleClick(2)}>Design</Link>
         <Link to="/about" className={activeLink === 3 ? 'active' : ''} onClick={() => handleClick(3)}>About</Link>

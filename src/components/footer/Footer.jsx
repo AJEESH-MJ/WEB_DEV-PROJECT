@@ -22,7 +22,7 @@ function Footer() {
           <ul>
             <li>
               <Link
-                to="/"
+                to="/home"
                 className={activeLink === 0 ? "active" : ""}
                 onClick={() => handleClick(0)}
               >
