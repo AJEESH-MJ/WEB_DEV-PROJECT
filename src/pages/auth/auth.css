@@ -9,8 +9,8 @@
   .Auth-container:before {
     content: "";
     position: absolute;
-    height: 2000px;
-    width: 2000px;
+    height: 125rem;
+    width: 125rem;
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
@@ -78,8 +78,8 @@
     width: 100%;
     background-color: #f0f0f0;
     height: 55px;
-    margin: 10px 0;
-    border-radius: 55px;
+    margin: .625rem 0;
+    border-radius: 3.438rem;
     display: grid;
     grid-template-columns: 15% 85%;
     padding: 0 0.4rem;
@@ -87,12 +87,12 @@
 
   .input-field .i {
     text-align: center;
-    line-height: 55px;
+    line-height: 3.438rem;
     color: #acacac;
     font-size: 1.3rem;
     position: relative;
-    top: 15px;
-    left: 20px;
+    top: .938rem;
+    left: 1.25rem;
   }
 
   .input-field input {
@@ -111,16 +111,16 @@
   }
 
   .btn {
-    width: 150px;
-    height: 49px;
+    width: 9.375rem;
+    height: 3.063rem;
     background-color: #5995fd;
     border: none;
     outline: none;
-    border-radius: 49px;
+    border-radius: 3.063rem;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    margin: 10px 0;
+    margin: .625rem 0;
     cursor: pointer;
     transition: 0.5s;
   }
@@ -140,8 +140,8 @@
   }
   
   .social-icon {
-    height: 46px;
-    width: 46px;
+    height: 2.875rem;
+    width: 2.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +176,7 @@
     justify-content: space-around;
     text-align: center;z-index: 7;    
     position: relative;
-    bottom: 80px;
+    bottom: 5rem;
   }
   
   .left-panel {
@@ -210,8 +210,8 @@
     margin: 0;
     background: none;
     border: 2px solid #fff;
-    width: 130px;
-    height: 41px;
+    width: 8.125rem;
+    height: 2.563;
     font-weight: 600;
     font-size: 0.8rem;
   }
@@ -234,14 +234,14 @@
 
 .right-panel .right-content img {
   position: relative;
-  left: -80px;
+  left: -5rem;
   width: 90%;
   transition: 1.1s .4s ease-in-out;
 }
 
 .right-panel .image,
 .right-panel .content {
-  transform: translateX(1200px);
+  transform: translateX(75rem);
 }
 
 .Auth-container.sign-up-mode:before {
@@ -252,7 +252,7 @@
   
 .Auth-container.sign-up-mode .left-panel .image,
 .Auth-container.sign-up-mode .left-panel .content {
-  transform: translateX(-800px);
+  transform: translateX(-50rem);
 }
 
 .Auth-container.sign-up-mode .right-panel .image,
@@ -284,7 +284,7 @@
  
   @media (max-width: 870px) {
     .container {
-      min-height: 800px;
+      min-height: 5rem;
       height: 100vh;
     }
     .signin-signup {
@@ -342,8 +342,8 @@
     }
   
     .btn.transparent {
-      width: 110px;
-      height: 35px;
+      width: 6.875rem;
+      height: 2.188rem;
       font-size: 0.7rem;
     }
   

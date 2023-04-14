@@ -1,77 +1,77 @@
 .contact {
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto;
-  padding: 50px 20px;
+  padding: 3.125rem 1.25rem;
   text-align: center;
-}
-
-.contact h2 {
+  }
+  
+  .contact h2 {
   font-size: 2.5rem;
-  margin-bottom: 20px;
-  margin-top: -15px;
-}
-
-.contact form {
+  margin-bottom: 1.25rem;
+  margin-top: -0.9375rem;
+  }
+  
+  .contact form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
-}
-
-.contact form label {
+  margin-bottom: 3.125rem;
+  }
+  
+  .contact form label {
   display: block;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   text-align: left;
   font-weight: bold;
   font-size: 1.2rem;
-}
-
-.contact form input,
-.contact form textarea {
+  }
+  
+  .contact form input,
+  .contact form textarea {
   width: 100%;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
   border: none;
-  margin-bottom: 20px;
-}
-
-.contact form button {
+  margin-bottom: 1.25rem;
+  }
+  
+  .contact form button {
   background-color: #1c1c1c;
   color: #fff;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
   font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
-}
-
-.contact form button:hover {
+  }
+  
+  .contact form button:hover {
   background-color: #000;
-}
-
-.contact-info {
+  }
+  
+  .contact-info {
   text-align: center;
-}
-
-.contact-info h3 {
+  }
+  
+  .contact-info h3 {
   font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.contact-info p {
+  margin-bottom: 1.25rem;
+  }
+  
+  .contact-info p {
   font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.contact-info ul {
+  margin-bottom: 1.25rem;
+  }
+  
+  .contact-info ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.contact-info li {
-  margin-bottom: 10px;
+  }
+  
+  .contact-info li {
+  margin-bottom: 0.625rem;
   font-size: 1.2rem;
-}
+  }

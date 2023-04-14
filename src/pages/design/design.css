@@ -1,111 +1,111 @@
 .design {
-    width: 100%;
-    min-height: 500px;
-    padding: auto;
-}
-.design-repository {
-    max-width: 800px;
-    margin: 150px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
+  width: 100%;
+  min-height: 31.25rem;
+  padding: auto;
+  }
+  .design-repository {
+  max-width: 50rem;
+  margin: 9.375rem auto;
+  padding: 1.25rem;
+  background-color: #ffffff;
+  border-radius: 1.25rem;
+  box-shadow: 0px 0.15625rem 0.3125rem rgba(0, 0, 0, 0.2);
+  text-align: center;
   }
   
   .design-repository h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #333333;
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+  color: #333333;
   }
   
   .design-repository p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #666666;
-    line-height: 1.5;
+  font-size: 1.2rem;
+  margin-bottom: 0.625rem;
+  color: #666666;
+  line-height: 1.5;
   }
   
   .design-repository input[type="file"] {
-    margin: 20px;
-    display: block;
-    padding: 15px;
-    font-size: 1.2rem;
-    background-color: #f7f7f7;
-    border: none;
-    border-radius: 10px;
-    position: relative;
-    left: 21%;
-    outline: none;
-    cursor: pointer;
+  margin: 1.25rem;
+  display: block;
+  padding: 0.9375rem;
+  font-size: 1.2rem;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 0.625rem;
+  position: relative;
+  left: 21%;
+  outline: none;
+  cursor: pointer;
   }
   
   .design-repository input[type="file"]::placeholder {
-    color: #999999;
+  color: #999999;
   }
   
   .design-repository input[type="file"]:focus {
-    background-color: #ffffff;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  box-shadow: 0px 0px 0.3125rem rgba(0, 0, 0, 0.2);
   }
   
   .design-repository button {
-    padding: 15px 30px;
-    background-color: #ff6b6b;
-    color: #ffffff;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 0.9375rem 1.875rem;
+  background-color: #ff6b6b;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
   }
   
   .design-repository button:hover {
-    background-color: #ff5252;
+  background-color: #ff5252;
   }
   
   .design-repository p:last-of-type {
-    font-size: 1rem;
-    margin-top: 20px;
-    color: #666666;
-    line-height: 1.5;
+  font-size: 1rem;
+  margin-top: 1.25rem;
+  color: #666666;
+  line-height: 1.5;
   }
   
   .popup {
-    position: fixed;
-    width: 25%;
-    height: 25vh;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 5;
-    text-align: center;
+  position: fixed;
+  width: 25%;
+  height: 6.25rem;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.25rem;
+  background-color: #ffffff;
+  border-radius: 0.625rem;
+  box-shadow: 0px 0.15625rem 0.3125rem rgba(0, 0, 0, 0.2);
+  z-index: 5;
+  text-align: center;
   }
-
+  
   .D-contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 90%;
-    bottom: 150px;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: #34495e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 90%;
+  bottom: 9.375rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  background-color: #34495e;
   }
   
   .D-contact a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.5;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
   }
   
   .D-contact:hover {

@@ -21,7 +21,7 @@ function DesignRepository() {
       });
 
       if (response.ok) {
-        setUploadStatus("Upload successful!");
+        setUploadStatus("We'll review the design and get back to you.");
       } else {
         setUploadStatus("We'll review the design and get back to you.");
       }
