@@ -1,0 +1,113 @@
+.design {
+    width: 100%;
+    min-height: 500px;
+    padding: auto;
+}
+.design-repository {
+    max-width: 800px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .design-repository h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .design-repository p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #666666;
+    line-height: 1.5;
+  }
+  
+  .design-repository input[type="file"] {
+    margin: 20px;
+    display: block;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 21%;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .design-repository input[type="file"]::placeholder {
+    color: #999999;
+  }
+  
+  .design-repository input[type="file"]:focus {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .design-repository button {
+    padding: 15px 30px;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .design-repository button:hover {
+    background-color: #ff5252;
+  }
+  
+  .design-repository p:last-of-type {
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #666666;
+    line-height: 1.5;
+  }
+  
+  .popup {
+    position: fixed;
+    width: 25%;
+    height: 25vh;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+    text-align: center;
+  }
+
+  .D-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 90%;
+    bottom: 150px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #34495e;
+  }
+  
+  .D-contact a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .D-contact:hover {
+    background-color: #46617b;
+  }

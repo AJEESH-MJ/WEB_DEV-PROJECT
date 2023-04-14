@@ -1,0 +1,180 @@
+/* Style the header/banner */  
+.banner {
+    background-image: url('../../assets/Header.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner h1 {
+    text-shadow: 2px 2px #000;
+    position: relative;
+    left: -75%;
+    bottom: 130px;
+    color: #0074D9;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  .banner h2 {
+    text-shadow: 2px 2px #000;
+    position: relative;
+    left: -75%;
+    bottom: 150px;
+    color: #0074D9;
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner h4 {
+    position: relative;
+    left: -79%;
+    bottom: 150px;
+    color: #34495e; 
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  
+.banner button {
+    position: relative;
+    left: -82%;
+    bottom: 120px;
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.7s;
+  }
+  .banner button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .banner button:hover {
+    background-color: #34495e;
+    transform: translateY(-3px);
+  }
+  
+  
+  /* Style the "WE PROVIDE" section */
+  .shead {
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .shead h2 {
+    font-size: 40px;
+    color: #34495e;
+    margin-bottom: 40px;
+  }
+  
+  /* Style the service boxes */
+  .section-p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .se-box {
+    text-align: center;
+    margin: 0 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    transition: transform 0.2s;
+  }
+  
+  .se-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .se-box img {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .se-box h6 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the carousel */
+  .carousel {
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin: 0;
+  }
+  
+  .carousel-slide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .carousel-slide img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 20px;
+    scroll-snap-align: center;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 30px;
+    color: #00bfff;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .carousel-control.prev {
+    left: 20px;
+  }
+  
+  .carousel-control.next {
+    right: 20px;
+  }
+  
+  .carousel-control:hover {
+    color: #34495e;
+  }
+  
+  /* Style the other service sections */
+  .service {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  hr{
+    border: dashed #111212 5px;
+    width: 10%;
+    margin: 50px auto 50px;
+    border-bottom: none;
+}
